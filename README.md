@@ -1,9 +1,19 @@
+<p align="center">
+  <img src="logo.png" alt="Light/Dark Color Scheme Toggle logo" width="160"/>
+</p>
+
 # Light/Dark Color Scheme Toggle
 
 A minimal KDE Plasma 6 panel widget that switches your color scheme between light and dark with a single click.
 
 ![License](https://img.shields.io/badge/license-GPL--2.0--or--later-blue.svg)
 ![Plasma](https://img.shields.io/badge/Plasma-6.0%2B-1d99f3.svg)
+
+## Screenshots
+
+![Panel — light & dark modes](screenshots/panel.png)
+
+![Settings dialog](screenshots/config.png)
 
 ## Features
 
@@ -73,6 +83,10 @@ Or simply remove the directory:
 rm -rf ~/.local/share/plasma/plasmoids/io.github.dscafati.lightdarktoggle
 ```
 
+## Credits
+
+The logo and the in-widget sun/moon icons are derived from the [Breeze icon theme](https://invent.kde.org/frameworks/breeze-icons) (`weather-clear.svg` and `weather-clear-night.svg`), © 2014 Uri Herrera and the KDE community, released under the GNU Lesser General Public License v3.0 or later.
+
 ## License
 
-Released under the [GNU General Public License v2.0 or later](LICENSE).
+The widget itself is released under the [GNU General Public License v2.0 or later](LICENSE). Bundled Breeze icons retain their original LGPL-3.0-or-later license.
