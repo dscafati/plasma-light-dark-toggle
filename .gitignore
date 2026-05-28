@@ -1,0 +1,16 @@
+# Editor / IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+*.plasmoid
+
+# Local tooling
+.claude/
